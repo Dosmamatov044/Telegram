@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1078656296878",
+    "project_id": "dosmamatov-d5a18",
+    "storage_bucket": "dosmamatov-d5a18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078656296878:android:d4ca33fa3807c0a2ca4a3f",
+        "android_client_info": {
+          "package_name": "com.example.telegram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078656296878-q2jgfqad65k58pjq4u3mhftl55nslo3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYb6A9l6HwR7ybRc6FcUzIiwIiL3ZGcF8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078656296878-q2jgfqad65k58pjq4u3mhftl55nslo3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

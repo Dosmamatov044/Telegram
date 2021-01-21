@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.history.History_videoFragment">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/history_videoRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/videoGet"
+        android:src="@color/colorPrimary"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="170dp"
+        />
+
+</androidx.cardview.widget.CardView>

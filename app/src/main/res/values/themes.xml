@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Telegram" parent="MaterialDrawerTheme.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#0088CC</item>
+        <item name="colorPrimaryVariant">#1570B8</item>
+        <item name="colorOnPrimary">#0F64A8</item>
+
+        <item name="backgroundColor">#FFFFFF</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#249FD6</item>
+        <item name="colorSecondaryVariant">#2E8CB6</item>
+        <item name="colorOnSecondary">#3089B1</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
