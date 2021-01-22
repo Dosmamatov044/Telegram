@@ -2,6 +2,7 @@ package com.example.telegram
 import android.content.pm.PackageManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.widget.Toolbar
 import androidx.core.content.ContextCompat
 import com.example.telegram.`object`.AppDrawer
@@ -55,11 +56,16 @@ class MainActivity : AppCompatActivity() {
         /* Функция инициализирует функциональность приложения */
 
         setSupportActionBar(mToolbar)
+
+
         if (AUTH.currentUser != null) {
+
             mAppDrawer.create()
             replaceFragment(MainListFragment(), false)
+
         } else {
             replaceFragment(EnterPhoneNumberFragment(),false)
+            bottom_navigation.visibility=View.GONE
         }
     }
 

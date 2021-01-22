@@ -543,6 +543,7 @@ fun sendMessageToHistory(messageKey: String, videoUrl: String, messageKey1: Stri
         mapMessage[CHILD_TEXT] = filename
 
 
+
         REF_DATABASE_ROOT.child(groupMessage).child(messageKey2.toString())
                 .updateChildren(mapMessage)
 

@@ -25,7 +25,7 @@ data class CommonModel(
         var photo_history:String="",
         var video_history:String="",
 
-      //  var title:String="",
+      var title:String="",
 
 
 ) {
